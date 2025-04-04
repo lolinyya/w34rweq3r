@@ -11,14 +11,19 @@ class ComposerStaticInit7fa6265a4bcaac1e730021dd3d4d98c0
     );
 
     public static $prefixLengthsPsr4 = array (
-        'M' => 
+        'L' => 
         array (
-            'Maria\\Pizza\\' => 12,
+            'LullDev\\PizzaStore\\Tests\\' => 25,
+            'LullDev\\PizzaStore\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Maria\\Pizza\\' => 
+        'LullDev\\PizzaStore\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'LullDev\\PizzaStore\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -26,6 +31,12 @@ class ComposerStaticInit7fa6265a4bcaac1e730021dd3d4d98c0
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'LullDev\\PizzaStore\\Pizza' => __DIR__ . '/../..' . '/src/Pizza.php',
+        'LullDev\\PizzaStore\\PizzaStore' => __DIR__ . '/../..' . '/src/PizzaStore.php',
+        'LullDev\\PizzaStore\\Pizzas\\CheesePizza' => __DIR__ . '/../..' . '/src/Pizzas/CheesePizza.php',
+        'LullDev\\PizzaStore\\Pizzas\\KarbonaraPizza' => __DIR__ . '/../..' . '/src/Pizzas/KarbonaraPizza.php',
+        'LullDev\\PizzaStore\\Pizzas\\PepperoniPizza' => __DIR__ . '/../..' . '/src/Pizzas/PepperoniPizza.php',
+        'LullDev\\PizzaStore\\Stores\\NYPizzaStore' => __DIR__ . '/../..' . '/src/Stores/NYPizzaStore.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

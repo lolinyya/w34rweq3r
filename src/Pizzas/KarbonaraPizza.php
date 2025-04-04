@@ -11,7 +11,7 @@ class KarbonaraPizza extends Pizza
     public function __construct()
     {
         $this->name = 'Карбонара';
-        $this->sauce = 'сливочный';
-        $this->toppings = ['бекон', 'яйца', 'пармезан'];
+        $this->sauce = 'Сливочный';
+        $this->toppings = ['Бекон', 'Яйца', 'Пармезан', 'Чеснок'];
     }
 }

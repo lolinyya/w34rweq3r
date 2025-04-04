@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'maria/pizza',
+        'name' => 'lolinyya/pizza-store',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'b949a6af56a84cb8bd82027084c645b92decc9c5',
+        'reference' => 'ff10c073c8cdb9bb32c073c16bb734a4c951a28f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'maria/pizza' => array(
+        'lolinyya/pizza-store' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'b949a6af56a84cb8bd82027084c645b92decc9c5',
+            'reference' => 'ff10c073c8cdb9bb32c073c16bb734a4c951a28f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
