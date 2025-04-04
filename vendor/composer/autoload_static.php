@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7fa6265a4bcaac1e730021dd3d4d98c0
+class ComposerStaticInit3c2028b6eb52b2be09288b17034f2b90
 {
     public static $files = array (
         '9b38cf48e83f5d8f60375221cd213eee' => __DIR__ . '/..' . '/phpstan/phpstan/bootstrap.php',
@@ -13,16 +13,11 @@ class ComposerStaticInit7fa6265a4bcaac1e730021dd3d4d98c0
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
-            'LullDev\\PizzaStore\\Tests\\' => 25,
             'LullDev\\PizzaStore\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'LullDev\\PizzaStore\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
-        ),
         'LullDev\\PizzaStore\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -31,20 +26,14 @@ class ComposerStaticInit7fa6265a4bcaac1e730021dd3d4d98c0
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'LullDev\\PizzaStore\\Pizza' => __DIR__ . '/../..' . '/src/Pizza.php',
-        'LullDev\\PizzaStore\\PizzaStore' => __DIR__ . '/../..' . '/src/PizzaStore.php',
-        'LullDev\\PizzaStore\\Pizzas\\CheesePizza' => __DIR__ . '/../..' . '/src/Pizzas/CheesePizza.php',
-        'LullDev\\PizzaStore\\Pizzas\\KarbonaraPizza' => __DIR__ . '/../..' . '/src/Pizzas/KarbonaraPizza.php',
-        'LullDev\\PizzaStore\\Pizzas\\PepperoniPizza' => __DIR__ . '/../..' . '/src/Pizzas/PepperoniPizza.php',
-        'LullDev\\PizzaStore\\Stores\\NYPizzaStore' => __DIR__ . '/../..' . '/src/Stores/NYPizzaStore.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7fa6265a4bcaac1e730021dd3d4d98c0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7fa6265a4bcaac1e730021dd3d4d98c0::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit7fa6265a4bcaac1e730021dd3d4d98c0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3c2028b6eb52b2be09288b17034f2b90::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3c2028b6eb52b2be09288b17034f2b90::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit3c2028b6eb52b2be09288b17034f2b90::$classMap;
 
         }, null, ClassLoader::class);
     }
